@@ -2,6 +2,11 @@
 
 All notable changes to will be documented in this file.
 
+## [0.0.3] - 2025-06-12
+Bug Fixes:
+- Name Validation: Enforced stricter validation rules to ensure names only contain letters, numbers, and hyphens. An appropriate error message is displayed for invalid inputs.
+- Directory Structure: Adjusted logic for non-component artifacts to prevent unnecessary directory creation.
+
 ## [0.0.2] - 2025-05-17
 Bug Fixes:
 - Fixed target directory issue: Generated files now correctly respect the selected output path instead of always defaulting to src/app.
